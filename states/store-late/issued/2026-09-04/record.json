@@ -1,0 +1,268 @@
+{
+ "artifact_sha256": "cbfe0f4959f72224fe81a616a761694c4eb14ac0f66a531881e089e547fd5e6a",
+ "artifact_verifies": true,
+ "blocked_non_local_requests": [],
+ "buffers_equal_payload": {
+  "B0": true,
+  "v2": true,
+  "v4": true
+ },
+ "buffers_sha256": {
+  "B0": "fb2228e24002b88f9289f70a0728e79d1adc3241cab550ad4de41681cffe087d",
+  "v2": "7f508368013bcca0570dbfd3044e85fff1b00bde78e0f99343feb4d985eb38d4",
+  "v4": "0d80e1d1115a612a14c3a6050cb5a9c006ca13ee3d02759108238b3c5625795f"
+ },
+ "causes": {},
+ "day": "2026-09-04",
+ "display": "successful daily fit",
+ "driver_seconds": 431.7080042089997,
+ "intake": {
+  "B0": "registered",
+  "v2": "registered",
+  "v4": "registered"
+ },
+ "issue_day_seconds": 431.7109060839998,
+ "issued_policy": "A1",
+ "issued_quantiles_sha256": "8b8d025217f8c4bd36ed30d8dc42944914f47416e1e5687cfb44d903f546439c",
+ "path": [
+  [
+   "A1",
+   "ok"
+  ]
+ ],
+ "payload_buffers_sha256": {
+  "B0": "fb2228e24002b88f9289f70a0728e79d1adc3241cab550ad4de41681cffe087d",
+  "v2": "7f508368013bcca0570dbfd3044e85fff1b00bde78e0f99343feb4d985eb38d4",
+  "v4": "0d80e1d1115a612a14c3a6050cb5a9c006ca13ee3d02759108238b3c5625795f"
+ },
+ "process_seconds": {
+  "A1": 134.746704292,
+  "B0": 9.413272000000001,
+  "v2": 130.277936334,
+  "v4": 156.33385308300004
+ },
+ "process_seconds_sum": 430.771765709,
+ "resources": {
+  "A1": {
+   "limits": {
+    "peak_bytes": 4294967296,
+    "wall_seconds": 900
+   },
+   "peak_bytes": 850804736,
+   "wall_seconds": 134.746704292
+  }
+ },
+ "runs": {
+  "A1": {
+   "blocked_non_local_requests": [],
+   "driver_wall_ms": 134871.16195900034,
+   "errors": [],
+   "executed_files": {
+    "cp15/__init__.py": "51729f693956953e59a18758f88755165cc0f5b5dad9194517599128181504c7",
+    "cp15/data.py": "c76fb1d78c6bbd17d1a1172ace6548a6f41711d138ce4b055b9c80cf0edabff3",
+    "cp17/__init__.py": "6d590a0a1f4c1c63bfad9bfadf08855082aa969290d55587d9237d1ab5ba90c2",
+    "cp17/attribution.py": "ec21364a8e16445fa097cd903e5953aa48d91b8b2e934cb883b2b54b1b3d54de",
+    "cp17/dailyfit.py": "65b36b86fbd5b096f6dc9657086928f8592db9e4616ad97be6a6cafd5926522f",
+    "cp17/host/driver.py": "b22f4db0d03e98122350faf164a111a48a5fed296816b62569ea325fbe630a68",
+    "cp17/stubs/absent/holidays.py": "252bd4f757d5926a5a61940beb783eaabdb7eaaff5c2c847f8e1a64da53b2559",
+    "cp17/stubs/fallback/resource.py": "4ff3227ba5afeec42b99cbec0c78f669512a72a733806c7757699f9223929581",
+    "cp24/__init__.py": "01e59a51ef166fcf206bdaad67703ee440c569be04d16800f4db4ed0f25c33e4",
+    "cp24/ddnn2.py": "a70cbea6e9533ffb0c4030a8c40b7c6978f9a218f17213c30fbb5c6850827067",
+    "cp24/design.py": "585b0673846e0e459eb700be24d12a46554172ee2c52600d86947645a0d03190",
+    "cp24/member.py": "d5df1ef4f81a3ce5fe01349588259aa32ce6fd32064581f1c5947822431538ec",
+    "delu_forecast/__init__.py": "c39e1809e51a396dd0c88f8af8ef31ee3cb125637e8edccad76486be4b089fa7",
+    "delu_forecast/baselines.py": "4e234cda6d09366b6136b2c2f4635dabdaa8aefe8d85ef0da41d9ad4912eea52",
+    "delu_forecast/features.py": "114cc25c8e93d0ddf2cec56f09674a484038983240d8d22d32bcb0f011a5bb3b",
+    "delu_forecast/folds.py": "71743a4f677507afea215902ee82a8e9f990fc128f4456afc47c3f4e0bd11078",
+    "delu_forecast/ingest.py": "e7a1cd415733eccd4460a49ba3d3ea465a90259e92ae657436b1baf3bd0ce04c",
+    "delu_forecast/partitions.py": "9633b4cce7a6538bb726ead77b140db37d2c503b727896214d54bb47b80d4f89"
+   },
+   "node": "v26.7.0",
+   "node_execpath": "/Users/runner/work/delu-host-refreeze/delu-host-refreeze/.local/tools/node-v26.7.0-official/node-v26.7.0-darwin-arm64/bin/node",
+   "process_rss_peak_bytes": 850804736,
+   "pyodide": "0.28.0",
+   "quantiles_sha256": "8b8d025217f8c4bd36ed30d8dc42944914f47416e1e5687cfb44d903f546439c",
+   "record": "runs/A1-2026-09-04-70ketm7s/run.json",
+   "record_sha256": "dc964f97b2661775b2875cc3ad4f7cc5fc32048de8a823123feb5fab636a365c",
+   "result_payload_sha256": "0626ee32811940da244e3decc296fad700c0fd9e12d8cbcbaf5743cb934b36f6",
+   "returncode": 0,
+   "runtime_numpy": "2.2.5",
+   "runtime_python": "3.13.2",
+   "stubs": [
+    "resource",
+    "holidays"
+   ],
+   "total_ms": 134746.704292,
+   "wasm_memory_bytes": 235470848
+  },
+  "B0": {
+   "blocked_non_local_requests": [],
+   "driver_wall_ms": 9526.0991250002,
+   "errors": [],
+   "executed_files": {
+    "cp15/__init__.py": "51729f693956953e59a18758f88755165cc0f5b5dad9194517599128181504c7",
+    "cp15/data.py": "c76fb1d78c6bbd17d1a1172ace6548a6f41711d138ce4b055b9c80cf0edabff3",
+    "cp16/__init__.py": "527054074035bff88c3907ae548d6f745c532c79a18eee2f7206e05f3df32519",
+    "cp16/residuals.py": "f442714ee867310bf3b820cf12dc6055d57b53d7630a751275c6311aa4f71580",
+    "cp17/__init__.py": "6d590a0a1f4c1c63bfad9bfadf08855082aa969290d55587d9237d1ab5ba90c2",
+    "cp17/dailyfit.py": "65b36b86fbd5b096f6dc9657086928f8592db9e4616ad97be6a6cafd5926522f",
+    "cp17/host/driver.py": "b22f4db0d03e98122350faf164a111a48a5fed296816b62569ea325fbe630a68",
+    "cp17/stubs/absent/holidays.py": "252bd4f757d5926a5a61940beb783eaabdb7eaaff5c2c847f8e1a64da53b2559",
+    "cp17/stubs/fallback/resource.py": "4ff3227ba5afeec42b99cbec0c78f669512a72a733806c7757699f9223929581",
+    "cp26/__init__.py": "80b5d7a61f997842f8ccf7b2fd007ea5601d63e7a5c90d301008473a395a245d",
+    "cp26/state.py": "8c031249c24431d7c145ab81f239a07a7641f97cc8ea45c67394c505d5be9e77",
+    "delu_forecast/__init__.py": "c39e1809e51a396dd0c88f8af8ef31ee3cb125637e8edccad76486be4b089fa7",
+    "delu_forecast/baselines.py": "4e234cda6d09366b6136b2c2f4635dabdaa8aefe8d85ef0da41d9ad4912eea52",
+    "delu_forecast/features.py": "114cc25c8e93d0ddf2cec56f09674a484038983240d8d22d32bcb0f011a5bb3b",
+    "delu_forecast/folds.py": "71743a4f677507afea215902ee82a8e9f990fc128f4456afc47c3f4e0bd11078",
+    "delu_forecast/ingest.py": "e7a1cd415733eccd4460a49ba3d3ea465a90259e92ae657436b1baf3bd0ce04c",
+    "delu_forecast/partitions.py": "9633b4cce7a6538bb726ead77b140db37d2c503b727896214d54bb47b80d4f89"
+   },
+   "node": "v26.7.0",
+   "node_execpath": "/Users/runner/work/delu-host-refreeze/delu-host-refreeze/.local/tools/node-v26.7.0-official/node-v26.7.0-darwin-arm64/bin/node",
+   "process_rss_peak_bytes": 821673984,
+   "pyodide": "0.28.0",
+   "quantiles_sha256": "6d9e10a70f8312d8b2605a4dc7c33f5010d52a28e0dcbffe8280398c3c272e09",
+   "record": "runs/B0-2026-09-04-ad965b84/run.json",
+   "record_sha256": "eaa3b4dff4a3d8b2e248d02f10e958f8c4afb097caa28bce8c7deece71bd4350",
+   "result_payload_sha256": "24c2144b7af2f22ec04e7306814398ff331eca5628d552a9b0d6472cf53d6453",
+   "returncode": 0,
+   "runtime_numpy": "2.2.5",
+   "runtime_python": "3.13.2",
+   "stubs": [
+    "resource",
+    "holidays"
+   ],
+   "total_ms": 9413.272,
+   "wasm_memory_bytes": 196214784
+  },
+  "v2": {
+   "blocked_non_local_requests": [],
+   "driver_wall_ms": 130454.25012499982,
+   "errors": [],
+   "executed_files": {
+    "cp15/__init__.py": "51729f693956953e59a18758f88755165cc0f5b5dad9194517599128181504c7",
+    "cp15/data.py": "c76fb1d78c6bbd17d1a1172ace6548a6f41711d138ce4b055b9c80cf0edabff3",
+    "cp15/models.py": "49d9ce2dadbe92265c36d946362c08f1819a87501469975575b794984a23f67c",
+    "cp16/__init__.py": "527054074035bff88c3907ae548d6f745c532c79a18eee2f7206e05f3df32519",
+    "cp16/residuals.py": "f442714ee867310bf3b820cf12dc6055d57b53d7630a751275c6311aa4f71580",
+    "cp17/__init__.py": "6d590a0a1f4c1c63bfad9bfadf08855082aa969290d55587d9237d1ab5ba90c2",
+    "cp17/attribution.py": "ec21364a8e16445fa097cd903e5953aa48d91b8b2e934cb883b2b54b1b3d54de",
+    "cp17/dailyfit.py": "65b36b86fbd5b096f6dc9657086928f8592db9e4616ad97be6a6cafd5926522f",
+    "cp17/host/driver.py": "b22f4db0d03e98122350faf164a111a48a5fed296816b62569ea325fbe630a68",
+    "cp17/stubs/absent/holidays.py": "252bd4f757d5926a5a61940beb783eaabdb7eaaff5c2c847f8e1a64da53b2559",
+    "cp17/stubs/fallback/resource.py": "4ff3227ba5afeec42b99cbec0c78f669512a72a733806c7757699f9223929581",
+    "cp21/__init__.py": "053f203c227fd8a08e7f6a5458fc3cdfb2d95efaeefc2f1c6450e20ed38cff3c",
+    "cp21/lgbm.py": "f35ba557c708aee9f6c83c3f974dcaad09d2c25fc81fcfd4105a70adedf038ad",
+    "delu_forecast/__init__.py": "c39e1809e51a396dd0c88f8af8ef31ee3cb125637e8edccad76486be4b089fa7",
+    "delu_forecast/baselines.py": "4e234cda6d09366b6136b2c2f4635dabdaa8aefe8d85ef0da41d9ad4912eea52",
+    "delu_forecast/features.py": "114cc25c8e93d0ddf2cec56f09674a484038983240d8d22d32bcb0f011a5bb3b",
+    "delu_forecast/folds.py": "71743a4f677507afea215902ee82a8e9f990fc128f4456afc47c3f4e0bd11078",
+    "delu_forecast/ingest.py": "e7a1cd415733eccd4460a49ba3d3ea465a90259e92ae657436b1baf3bd0ce04c",
+    "delu_forecast/partitions.py": "9633b4cce7a6538bb726ead77b140db37d2c503b727896214d54bb47b80d4f89"
+   },
+   "node": "v26.7.0",
+   "node_execpath": "/Users/runner/work/delu-host-refreeze/delu-host-refreeze/.local/tools/node-v26.7.0-official/node-v26.7.0-darwin-arm64/bin/node",
+   "process_rss_peak_bytes": 886947840,
+   "pyodide": "0.28.0",
+   "quantiles_sha256": "92b293a835ddb635d79869b96c7c45e3ab9c9978a4e83c758aa06f9311962a34",
+   "record": "runs/v2-2026-09-04-a6un1ik6/run.json",
+   "record_sha256": "35bf937c45dcc8e68bafe62fa88be37f76a674f496575931d1bc8407713a3fc7",
+   "result_payload_sha256": "f84d3228d9c327c0101fb2e8c140bf9d0bfbf6f8678cc39e3db34caab9704cf4",
+   "returncode": 0,
+   "runtime_numpy": "2.2.5",
+   "runtime_python": "3.13.2",
+   "stubs": [
+    "resource",
+    "holidays"
+   ],
+   "total_ms": 130277.936334,
+   "wasm_memory_bytes": 282591232
+  },
+  "v4": {
+   "blocked_non_local_requests": [],
+   "driver_wall_ms": 156495.76187499997,
+   "errors": [],
+   "executed_files": {
+    "cp15/__init__.py": "51729f693956953e59a18758f88755165cc0f5b5dad9194517599128181504c7",
+    "cp15/data.py": "c76fb1d78c6bbd17d1a1172ace6548a6f41711d138ce4b055b9c80cf0edabff3",
+    "cp15/models.py": "49d9ce2dadbe92265c36d946362c08f1819a87501469975575b794984a23f67c",
+    "cp16/__init__.py": "527054074035bff88c3907ae548d6f745c532c79a18eee2f7206e05f3df32519",
+    "cp16/residuals.py": "f442714ee867310bf3b820cf12dc6055d57b53d7630a751275c6311aa4f71580",
+    "cp17/__init__.py": "6d590a0a1f4c1c63bfad9bfadf08855082aa969290d55587d9237d1ab5ba90c2",
+    "cp17/attribution.py": "ec21364a8e16445fa097cd903e5953aa48d91b8b2e934cb883b2b54b1b3d54de",
+    "cp17/dailyfit.py": "65b36b86fbd5b096f6dc9657086928f8592db9e4616ad97be6a6cafd5926522f",
+    "cp17/host/driver.py": "b22f4db0d03e98122350faf164a111a48a5fed296816b62569ea325fbe630a68",
+    "cp17/stubs/absent/holidays.py": "252bd4f757d5926a5a61940beb783eaabdb7eaaff5c2c847f8e1a64da53b2559",
+    "cp17/stubs/fallback/resource.py": "4ff3227ba5afeec42b99cbec0c78f669512a72a733806c7757699f9223929581",
+    "cp21/__init__.py": "053f203c227fd8a08e7f6a5458fc3cdfb2d95efaeefc2f1c6450e20ed38cff3c",
+    "cp21/lgbm.py": "f35ba557c708aee9f6c83c3f974dcaad09d2c25fc81fcfd4105a70adedf038ad",
+    "delu_forecast/__init__.py": "c39e1809e51a396dd0c88f8af8ef31ee3cb125637e8edccad76486be4b089fa7",
+    "delu_forecast/baselines.py": "4e234cda6d09366b6136b2c2f4635dabdaa8aefe8d85ef0da41d9ad4912eea52",
+    "delu_forecast/features.py": "114cc25c8e93d0ddf2cec56f09674a484038983240d8d22d32bcb0f011a5bb3b",
+    "delu_forecast/folds.py": "71743a4f677507afea215902ee82a8e9f990fc128f4456afc47c3f4e0bd11078",
+    "delu_forecast/ingest.py": "e7a1cd415733eccd4460a49ba3d3ea465a90259e92ae657436b1baf3bd0ce04c",
+    "delu_forecast/partitions.py": "9633b4cce7a6538bb726ead77b140db37d2c503b727896214d54bb47b80d4f89"
+   },
+   "node": "v26.7.0",
+   "node_execpath": "/Users/runner/work/delu-host-refreeze/delu-host-refreeze/.local/tools/node-v26.7.0-official/node-v26.7.0-darwin-arm64/bin/node",
+   "process_rss_peak_bytes": 927973376,
+   "pyodide": "0.28.0",
+   "quantiles_sha256": "8c7a6d6d312bf1d86f8aeb980aa882720533ce9e2a47a8f4f7cb184d769523dc",
+   "record": "runs/v4-2026-09-04-jf49_bcx/run.json",
+   "record_sha256": "f5bda1f35c5af023d90cfa5aa00273c969cbaa4058882106e03ae8e83220c720",
+   "result_payload_sha256": "736ec369ff3cf3e85db059197f1cd9beec9b6d8b1fb262e8eea4710fdd7ffc2b",
+   "returncode": 0,
+   "runtime_numpy": "2.2.5",
+   "runtime_python": "3.13.2",
+   "stubs": [
+    "resource",
+    "holidays"
+   ],
+   "total_ms": 156333.85308300002,
+   "wasm_memory_bytes": 287834112
+  }
+ },
+ "shadows": {
+  "B0": {
+   "cause": null,
+   "central_sha256": "cdfc4fa9f7a05bd3f05f7dc719a9997a84591f600eaade74b5745daec097433e",
+   "fitted_by": "shadow",
+   "intake": "registered",
+   "keys": 24,
+   "peak_bytes": 821673984,
+   "quantiles_sha256": "6d9e10a70f8312d8b2605a4dc7c33f5010d52a28e0dcbffe8280398c3c272e09",
+   "role": "shadow: never published, displayed or scored as the product's forecast",
+   "scale_sha256": null,
+   "status": "ok",
+   "wall_seconds": 9.413272000000001
+  },
+  "v2": {
+   "cause": null,
+   "central_sha256": "41119aef0f5e465b9fec8f8a036a1c6675c60aadcf61010856da8e0e491f6c03",
+   "fitted_by": "shadow",
+   "intake": "registered",
+   "keys": 24,
+   "peak_bytes": 886947840,
+   "quantiles_sha256": "92b293a835ddb635d79869b96c7c45e3ab9c9978a4e83c758aa06f9311962a34",
+   "role": "shadow: never published, displayed or scored as the product's forecast",
+   "scale_sha256": "1ca077f2d4c9c226443279035c6ba040607fefd0dec365c295018b34c3d4c517",
+   "status": "ok",
+   "wall_seconds": 130.277936334
+  },
+  "v4": {
+   "cause": null,
+   "central_sha256": "6db446516e9accdad8725cdc40afcd4ab3913e7d896a126a9076714a99e6930b",
+   "fitted_by": "shadow",
+   "intake": "registered",
+   "keys": 24,
+   "peak_bytes": 927973376,
+   "quantiles_sha256": "8c7a6d6d312bf1d86f8aeb980aa882720533ce9e2a47a8f4f7cb184d769523dc",
+   "role": "shadow: never published, displayed or scored as the product's forecast",
+   "scale_sha256": "1ca077f2d4c9c226443279035c6ba040607fefd0dec365c295018b34c3d4c517",
+   "status": "ok",
+   "wall_seconds": 156.33385308300004
+  }
+ },
+ "within_ceiling": true
+}
